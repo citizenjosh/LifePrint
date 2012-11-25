@@ -1,0 +1,31 @@
+// @author Citizen Josh <http://CitizenJosh.com>
+// @date 2012-11-19
+
+{
+  "name": "LifePrint Search Engine",
+  "version": "1.0",
+  //"id": "aljgimkobbgadpiggaeoladpeoehdcff",
+  "manifest_version": 2,
+  "description": "Search for a word and go directly to that page",
+
+"page_action": {
+    "default_icon": "favicon.ico"
+  },
+  "content_scripts": [
+      {
+        "matches": ["http://www.lifeprint.com/search/*","http://lifeprint.com/search/*"],
+        "js": ["rerouter.js"],
+        "run_at": "document_start"
+      }
+    ],
+
+
+
+  
+  "permissions":[
+    "http://lifeprint.com/*",
+    "http://www.lifeprint.com/*",
+    "tabs",
+    "webRequest"
+  ]
+}

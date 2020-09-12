@@ -10,5 +10,5 @@ This extension for Google Chrome provides a way to search the
  
  ## Appreciations
 
- * [Carwin Young's Drupal API Chrom Extension](https://github.com/carwin/drupal-api-chrome)
+ * [Carwin Young's Drupal API Chrome Extension](https://github.com/carwin/drupal-api-chrome)
  * [Dr. William Vicars](https://www.lifeprint.com/donate.htm)
